@@ -1,0 +1,66 @@
+:root{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 13px 0;
+    display: block;
+    width: 180px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    transition: background-color ease 1.5s;
+    transition: color 1.5s;
+}
+
+.button:hover {
+    background-color: pink;
+    color: black;
+}
+
+.button.white {
+    color: white;
+    border-color: white;
+}
+
+.button.block {
+    width: auto;
+}
+
+.hero {
+    background-image: url('./../sea-back.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background: url('./../sea-back.jpg') no-repeat center / cover;
+    
+    padding: 150px 0;
+    color: white;
+    text-align: center;
+}
+
+.menu .logo {
+    width: 200px;
+}
+
+/*
+.menu nav {
+  display: none;
+}
+*/
+
+.menu nav ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+}
